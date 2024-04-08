@@ -79,12 +79,6 @@ public class TransactionServiceImpl implements TransactionsService {
         }
     }
 
-    private TransactionResponse buildResponse(List<TransactionDTO> rejectedTransactions) {
-        return TransactionResponse.builder()
-                .rejectedTransactions(rejectedTransactions)
-                .build();
-    }
-
     private TransactionDTO createTransactionDTO(String[] fields) {
         // Assuming fields[0] = first name, fields[1] = last name,  field[2] = email, field[3] = amount, fields[4] = transaction number
         return TransactionDTO.builder()
