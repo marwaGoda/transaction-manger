@@ -13,7 +13,7 @@ based on the details mentioned in [ASSIGNMENT.md](ASSIGNMENT.md) .
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your/repository.git
+   git clone https://github.com/marwaGoda/transaction-manger.git
 
 2. Build the application:
    ```sh
